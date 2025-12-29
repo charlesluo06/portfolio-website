@@ -5,6 +5,7 @@ import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
+    <link rel="icon" type="image/svg+xml" href="/circleMe.png" />
     <App />
   </StrictMode>,
 )

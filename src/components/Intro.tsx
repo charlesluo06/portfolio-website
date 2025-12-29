@@ -5,11 +5,12 @@ import ResumeImg from "../assets/resume.svg";
 function Intro() {
   return (
     <>
-      <div className="min-h-screen bg-gray-100 flex items-center">
+      <div className="min-h-screen bg-[#f0f0f0] flex items-center">
         {/* container for BOTH card + image */}
-        <div className="w-full max-w-5xl mx-auto px-6 flex items-center justify-center gap-10 lg:gap-30">
+        <div className="w-full max-w-6xl mx-auto lg:px-16 px-6 flex items-center justify-center gap-10 lg:gap-50">
+
           {/* left card */}
-          <div className="flex-1 max-w-xl">
+          <div className="flex-1 bg-gray-100 rounded-3xl max-w-xl">
             {/* ⬇️ NO background here */}
             <div className="rounded-3xl shadow-xl/15 overflow-hidden">
               {/* ⬇️ ONLY the name section is white */}
@@ -76,7 +77,7 @@ function Intro() {
           </div>
 
           {/* right image */}
-          <img src={Me} className="w-72 rounded-3xl object-cover" alt="Me" />
+          <img src={Me} className="w-72 shadow-lg/30 rounded-3xl object-cover" alt="Me" />
         </div>
       </div>
     </>
