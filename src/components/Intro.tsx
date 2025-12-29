@@ -7,7 +7,7 @@ function Intro() {
     <>
       <div className="min-h-screen bg-[#f0f0f0] flex items-center">
         {/* container for BOTH card + image */}
-        <div className="w-full max-w-6xl mx-auto lg:px-16 px-6 flex items-center justify-center gap-10 lg:gap-50">
+        <div className="w-full max-w-6xl mx-auto px-6 flex items-center justify-center gap-10 lg:gap-65">
 
           {/* left card */}
           <div className="flex-1 bg-gray-100 rounded-3xl max-w-xl">
