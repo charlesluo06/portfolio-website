@@ -4,15 +4,15 @@ import ResumeImg from "../assets/resume.svg";
 
 function Intro() {
   return (
-    <>
+    <div id="intro">
       <div className="min-h-screen bg-[#f0f0f0] flex items-center">
         {/* container for BOTH card + image */}
-        <div className="w-full max-w-6xl mx-auto px-6 flex items-center justify-center gap-10 lg:gap-65">
+        <div className="w-full max-w-6xl mx-auto px-6 flex items-center justify-center gap-10 lg:gap-60">
 
           {/* left card */}
           <div className="flex-1 bg-gray-100 rounded-3xl max-w-xl">
             {/* ⬇️ NO background here */}
-            <div className="rounded-3xl shadow-xl/15 overflow-hidden">
+            <div className="rounded-3xl shadow-lg/20 overflow-hidden">
               {/* ⬇️ ONLY the name section is white */}
               <div className="bg-white text-left px-10 py-6 border-b-3 border-gray-200">
                 <p className="text-5xl font-medium text-[#0084ff]">
@@ -36,7 +36,7 @@ function Intro() {
                   hover:text-white hover:bg-[#0084ff] hover:border-[#0084ff]
                   mr-5 shadow-lg/15
                   text-[#0084ff] bg-white border border-gray-300
-                  px-3 py-1.5 rounded-3xl
+                  px-3 py-1.5 rounded-3xl ring-[#0084ff] ring-1
                   "
                   >
                     <img
@@ -57,7 +57,7 @@ function Intro() {
                   cursor-pointer px-3 py-1 rounded-3xl border border-gray-300 bg-white
                   text-[#0084ff] shadow-lg/15
                   hover:text-white hover:bg-[#0084ff] hover:border-[#0084ff]
-                  transition-colors duration-300 ease-in-out
+                  transition-colors duration-300 ease-in-out ring-[#0084ff] ring-1
                   "
                   >
                     <img
@@ -80,7 +80,7 @@ function Intro() {
           <img src={Me} className="w-72 shadow-lg/30 rounded-3xl object-cover" alt="Me" />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

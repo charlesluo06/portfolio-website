@@ -5,6 +5,7 @@ import Header from "./components/Header";
 function App() {
   return (
     <>
+    <link rel="icon" type="image/svg+xml" href="/circleMe.png" />
       <Header />
       <Intro />
     </>

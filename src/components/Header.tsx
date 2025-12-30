@@ -1,5 +1,6 @@
 import LinkedInImg from "../assets/linkedin.svg";
 import GithubImg from "../assets/github.svg";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -10,17 +11,17 @@ function Header() {
       px-10 rounded-4xl shadow-md/15 bg-white
     ">
       <div className="font-semibold text-xl px-3 py-0.5">
-        <p className="text-[#0084ff]">Charles Luo</p>
+        <Link to="#intro"><p className="text-[#0084ff] hover:scale-110 transition ease-in-out duration-100">Charles Luo</p></Link>
       </div>
-      <div className="flex gap-5">
-        <p className="text-gray-700">Home</p>
-        <p className="text-gray-700">About</p>
-        <p className="text-gray-700">Projects</p>
-        <p className="text-gray-700">Resume</p>
-        <p className="text-gray-700">Contact</p>
+      <div className="flex gap-3">
+        <Link to="/"><p className="text-gray-700 hover:rounded-4xl hover:inset-shadow-sm/20 hover:bg-white px-2">Home</p></Link>
+        <Link to="/"><p className="text-gray-700 hover:rounded-4xl hover:inset-shadow-sm/20 hover:bg-white px-2">About</p></Link>
+        <Link to="/"><p className="text-gray-700 hover:rounded-4xl hover:inset-shadow-sm/20 hover:bg-white px-2">Projects</p></Link>
+        <Link to="/"><p className="text-gray-700 hover:rounded-4xl hover:inset-shadow-sm/20 hover:bg-white px-2">Resume</p></Link>
+        <Link to="/"><p className="text-gray-700 hover:rounded-4xl hover:inset-shadow-sm/20 hover:bg-white px-2">Contact</p></Link>
         <span className="flex gap-3 pl-5">
-          <img src={LinkedInImg} className="w-6" />
-          <img src={GithubImg} className="w-6" />
+          <Link target="#" to="https://www.linkedin.com/in/charles-luo-5b1755317/"><img src={LinkedInImg} className="w-6 hover:scale-125 transition ease-in-out duration-100" /></Link>
+          <Link target="#" to="https://github.com/charlesluo06"><img src={GithubImg} className="w-6 hover:scale-125 transition ease-in-out duration-100" /></Link>
         </span>
       </div>
     </div>
