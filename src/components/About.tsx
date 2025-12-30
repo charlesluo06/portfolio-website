@@ -36,7 +36,7 @@ function About() {
 
             <div className="flex-1 flex flex-col justify-between shadow-md/20 gap-2 bg-white border-gray-200 border px-3 py-3 rounded-2xl hover:ring-2 hover:ring-[#0084ff] transition ease-in-out duration-120 hover:scale-105">
               <img src={GymIcon} className="w-15" />
-              <p className="font-semibold text-[#0084ff] text-sm">Workout</p>
+              <p className="font-semibold text-[#0084ff] text-sm">Lifting</p>
             </div>
 
             <div className="flex-1 flex flex-col justify-between shadow-md/20 gap-2 bg-white border-gray-200 border px-3 py-3 rounded-2xl hover:ring-2 hover:ring-[#0084ff] transition ease-in-out duration-120 hover:scale-105">
