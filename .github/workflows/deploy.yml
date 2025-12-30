@@ -19,6 +19,7 @@ jobs:
     defaults:
       run:
         working-directory: personal-website
+
     steps:
       - uses: actions/checkout@v4
 
