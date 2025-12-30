@@ -7,11 +7,11 @@ function Intro() {
     <div id="intro">
       <div className="h-[97vh] bg-[#f0f0f0] flex items-center">
         {/* container for BOTH card + image */}
-        <div className="w-full lg:w-7xl mx-auto px-6 flex items-center justify-center gap-10 lg:gap-60">
+        <div className="md:w-full lg:w-7xl mx-auto px-6 flex items-center justify-center gap-10 lg:gap-60">
           {/* left card */}
           <div className="flex-1 bg-gray-100 rounded-3xl">
             {/* ⬇️ NO background here */}
-            <div className="rounded-3xl h-[35vh] shadow-lg/20 overflow-hidden">
+            <div className="rounded-3xl md:h-[35vh] shadow-lg/20 overflow-hidden">
               {/* ⬇️ ONLY the name section is white */}
               <div className="bg-white text-left px-10 py-6 border-b-3 border-gray-200">
                 <p className="text-5xl font-medium text-[#0084ff]">
@@ -78,7 +78,7 @@ function Intro() {
           {/* right image */}
           <img
             src={Me}
-            className="w-72 lg:w-80 shadow-lg/20 rounded-3xl object-cover ring-white ring-4"
+            className="w-40 md:w-72 lg:w-80 shadow-lg/20 rounded-3xl object-cover ring-white ring-4"
             alt="Me"
           />
         </div>
