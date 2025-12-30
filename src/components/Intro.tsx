@@ -1,11 +1,12 @@
 import Me from "../assets/pro_headshot.jpg";
 import EmailImg from "../assets/mail.svg";
 import ResumeImg from "../assets/resume.svg";
+import { Typewriter } from "react-simple-typewriter";
 
 function Intro() {
   return (
     <div id="intro">
-      <div className="h-[97vh] bg-[#f0f0f0] flex items-center">
+      <div className="h-[97vh] bg-[#f7f2ead8] flex items-center">
         {/* container for BOTH card + image */}
         <div className="md:w-full lg:w-7xl mx-auto px-6 flex items-center justify-center gap-10 lg:gap-60">
           {/* left card */}
@@ -16,7 +17,16 @@ function Intro() {
               <div className="bg-white text-left px-10 py-6 border-b-3 border-gray-200">
                 <p className="text-5xl font-medium text-[#0084ff]">
                   <span className="text-gray-400 font-light">I am </span>
-                  Charles Luo
+                  <Typewriter
+                    words={["Charles Luo"]}
+                    loop={1}
+                    cursor={true}
+                    cursorStyle="_"
+                    typeSpeed={100}
+                    deleteSpeed={50}
+                    delaySpeed={1000}
+                    
+                  />
                 </p>
               </div>
 
