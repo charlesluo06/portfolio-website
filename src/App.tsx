@@ -1,6 +1,7 @@
 import "./App.css";
 import Intro from "./components/Intro";
 import Header from "./components/Header";
+import About from "./components/About";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
     <link rel="icon" type="image/svg+xml" href="/circleMe.png" />
       <Header />
       <Intro />
+      <About />
     </>
   );
 }
