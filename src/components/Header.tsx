@@ -21,28 +21,28 @@ function Header() {
       </div>
       <div className="flex gap-3">
         <a href="#intro">
-          <p className="text-gray-700 hover:rounded-4xl hover:inset-shadow-sm/20 hover:bg-white px-2">
+          <p className="text-gray-700 rounded-4xl hover:inset-shadow-sm/20 transition ease-in-out duration-250 hover:bg-white px-2">
             Home
           </p>
         </a>{" "}
         {/* CHANGE LATER MAYBE */}
         <Link to="/">
-          <p className="text-gray-700 hover:rounded-4xl hover:inset-shadow-sm/20 hover:bg-white px-2">
+          <p className="text-gray-700 rounded-4xl hover:inset-shadow-sm/20 transition ease-in-out duration-250 hover:bg-white px-2">
             About
           </p>
         </Link>
         <Link to="/">
-          <p className="text-gray-700 hover:rounded-4xl hover:inset-shadow-sm/20 hover:bg-white px-2">
+          <p className="text-gray-700 rounded-4xl hover:inset-shadow-sm/20 transition ease-in-out duration-250 hover:bg-white px-2">
             Projects
           </p>
         </Link>
         <Link to="/">
-          <p className="text-gray-700 hover:rounded-4xl hover:inset-shadow-sm/20 hover:bg-white px-2">
+          <p className="text-gray-700 rounded-4xl hover:inset-shadow-sm/20 transition ease-in-out duration-250 hover:bg-white px-2">
             Resume
           </p>
         </Link>
         <Link to="/">
-          <p className="text-gray-700 hover:rounded-4xl hover:inset-shadow-sm/20 hover:bg-white px-2">
+          <p className="text-gray-700 rounded-4xl hover:inset-shadow-sm/20 transition ease-in-out duration-250 hover:bg-white px-2">
             Contact
           </p>
         </Link>
