@@ -12,7 +12,7 @@ function Header() {
       px-10 rounded-4xl shadow-md/15 bg-white
     "
     >
-      <div className="font-semibold text-xl px-3 py-0.5">
+      <div className="font-semibold text-2xl px-2 py-0.5">
         <a href="#intro">
           <p className="text-[#0084ff] hover:scale-110 transition ease-in-out duration-100">
             Charles Luo
