@@ -6,7 +6,7 @@ import { Typewriter } from "react-simple-typewriter";
 function Intro() {
   return (
     <div id="intro">
-      <div className="h-[97vh] bg-[#f7f2ead8] flex items-center">
+      <div className="h-[90vh] bg-[#f7f2ead8] flex items-center">
         {/* container for BOTH card + image */}
         <div className="md:w-full lg:w-7xl mx-auto px-6 flex items-center justify-center gap-10 lg:gap-60">
           {/* left card */}
