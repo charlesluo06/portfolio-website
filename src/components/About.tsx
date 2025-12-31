@@ -1,7 +1,7 @@
 import meSunImg from "../assets/meSun.png";
 import SpotifyIcon from "../assets/spotify.svg";
 import GymIcon from "../assets/gym.svg";
-import GamingIcon from "../assets/gaming.png";
+import FoodIcon from "../assets/food.svg";
 
 function About() {
   return (
@@ -29,19 +29,49 @@ function About() {
           </div>
           {/* Bottom row of smaller containers */}
           <div className="flex gap-4">
-            <div className="flex-1 flex flex-col justify-between shadow-md/20 gap-2 bg-white border-gray-200 border px-3 py-3 rounded-2xl hover:ring-2 hover:ring-[#0084ff] transition ease-in-out duration-120 hover:scale-105">
-              <img src={SpotifyIcon} className="w-15" />
-              <p className="font-semibold text-[#0084ff] text-sm">Music</p>
+            {/* Music */}
+            <div
+              className="group flex-1 flex flex-col items-center shadow-md/20 gap-2 bg-white border-gray-200 border px-3 py-6 rounded-2xl
+                hover:ring-2 hover:ring-[#0084ff] transition ease-in-out duration-120 hover:scale-105"
+            >
+              <img
+                src={SpotifyIcon}
+                className="w-15 lg:w-1/3 lg:mb-4 transition-transform duration-300 group-hover:-translate-y-2"
+              />
+              <p className="font-semibold text-[#0084ff] lg:text-xl">Music</p>
+              <p className="hidden lg:block text-sm text-gray-700 text-center">
+                I'm currently listening to R&B, EDM, and Pop.
+              </p>
             </div>
 
-            <div className="flex-1 flex flex-col justify-between shadow-md/20 gap-2 bg-white border-gray-200 border px-3 py-3 rounded-2xl hover:ring-2 hover:ring-[#0084ff] transition ease-in-out duration-120 hover:scale-105">
-              <img src={GymIcon} className="w-15" />
-              <p className="font-semibold text-[#0084ff] text-sm">Lifting</p>
+            {/* Lifting */}
+            <div
+              className="group flex-1 flex flex-col items-center shadow-md/20 gap-2 bg-white border-gray-200 border px-3 py-6 rounded-2xl
+                hover:ring-2 hover:ring-[#0084ff] transition ease-in-out duration-120 hover:scale-105"
+            >
+              <img
+                src={GymIcon}
+                className="w-15 lg:w-1/3 lg:mb-4 transition-transform duration-300 group-hover:-translate-y-2"
+              />
+              <p className="font-semibold text-[#0084ff] lg:text-xl">Lifting</p>
+              <p className="hidden lg:block text-sm text-gray-700 text-center">
+                Fitness is very important to me and staying active.
+              </p>
             </div>
 
-            <div className="flex-1 flex flex-col justify-between shadow-md/20 gap-2 bg-white border-gray-200 border px-3 py-3 rounded-2xl hover:ring-2 hover:ring-[#0084ff] transition ease-in-out duration-120 hover:scale-105">
-              <img src={GamingIcon} className="w-15" />
-              <p className="font-semibold text-[#0084ff] text-sm">Gaming</p>
+            {/* Food */}
+            <div
+              className="group flex-1 flex flex-col items-center shadow-md/20 gap-2 bg-white border-gray-200 border px-3 py-6 rounded-2xl
+                hover:ring-2 hover:ring-[#0084ff] transition ease-in-out duration-120 hover:scale-105"
+            >
+              <img
+                src={FoodIcon}
+                className="w-15 lg:w-1/3 lg:mb-4 transition-transform duration-300 group-hover:-translate-y-2"
+              />
+              <p className="font-semibold text-[#0084ff] lg:text-xl">Food</p>
+              <p className="hidden lg:block text-sm text-gray-700 text-center">
+                I love going out and exploring new food spots!
+              </p>
             </div>
           </div>
         </div>
