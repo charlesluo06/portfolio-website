@@ -8,10 +8,10 @@ function About() {
   return (
     <motion.div
   initial={{ y: 60, opacity: 1 }}
-  whileInView={{ y: -20, opacity: 1 }}
+  whileInView={{ y: -30, opacity: 1 }}
   viewport={{ once: true, amount: .3 }}
   transition={{ duration: 0.8, ease: "easeOut" }}
-  className="bg-[#f7f2ead8]"
+  className="bg-[#f7f2ead8] h-screen"
 >
 
       <div className="h-[50vh] rounded-4xl border-gray-200 border-2 bg-gray-100 shadow-lg/30 w-7/8 mx-auto flex items-center p-15 lg:px-50">
