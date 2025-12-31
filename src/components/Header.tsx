@@ -26,11 +26,11 @@ function Header() {
           </p>
         </a>{" "}
         {/* CHANGE LATER MAYBE */}
-        <Link to="/">
+        <a href="#about">
           <p className="text-gray-700 rounded-4xl hover:inset-shadow-sm/20 transition ease-in-out duration-150 hover:bg-white px-2">
             About
           </p>
-        </Link>
+        </a>
         <Link to="/">
           <p className="text-gray-700 rounded-4xl hover:inset-shadow-sm/20 transition ease-in-out duration-150 hover:bg-white px-2">
             Projects
