@@ -105,7 +105,7 @@ function Intro() {
           }}
         >
           <a href="#about">
-            <button className="px-20 lg:px-40 py-2 rounded-full bg-[#0084ff] text-white shadow-lg cursor-pointer hover:scale-110 transition">
+            <button className="px-20 lg:px-55 py-2 rounded-full bg-[#0084ff] text-white shadow-lg cursor-pointer hover:scale-105 transition">
               ↓
             </button>
           </a>
