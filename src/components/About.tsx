@@ -8,9 +8,9 @@ function About() {
   return (
     <motion.div
       id="about"
-      className="bg-[#f7f2ead8] h-screen scroll-mt-45"
+      className="bg-[#f7f2ead8] h-[50vh] scroll-mt-45"
       initial={{ y: 60, opacity: 1 }}
-      whileInView={{ y: -20, opacity: 1 }}
+      whileInView={{ y: -10, opacity: 1 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
@@ -24,7 +24,7 @@ function About() {
         <div className="lg:w-4/5 w-3/5 ml-16 flex flex-col gap-10">
           {/* Top big container */}
           <div className="shadow-md/20 bg-white border-gray-200 border px-3 py-4 lg:px-10 lg:py-5 rounded-3xl">
-            <p className="text-3xl font-semibold mb-5 text-[#0084ff]">About</p>
+            <p className="text-3xl font-semibold mb-5 text-[#0084ff]">About Me</p>
             <p className="text-gray-700">
               Hi! My name is <span className="text-gray-900">Charles Luo.</span>{" "}
               I’m a second-year{" "}

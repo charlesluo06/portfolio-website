@@ -9,7 +9,7 @@ function Intro() {
     <div id="intro">
       <div className="h-[90vh] bg-[#f7f2ead8] flex flex-col justify-center relative">
         {/* Card + Image */}
-        <div className="md:w-full lg:w-7xl mx-auto px-6 flex items-center justify-center gap-10 lg:gap-60">
+        <div className="md:w-full lg:w-7xl mx-auto px-6 flex items-center justify-center gap-10 lg:gap-50">
           {/* Left card */}
           <div className="flex-1 bg-gray-100 rounded-3xl">
             <div className="rounded-3xl md:h-[35vh] shadow-lg/20 overflow-hidden">
@@ -89,7 +89,7 @@ function Intro() {
           {/* Right image */}
           <img
             src={Me}
-            className="w-40 md:w-72 lg:w-80 shadow-lg/20 rounded-3xl object-cover ring-white ring-4"
+            className="w-40 md:w-72 lg:w-85 shadow-lg/20 rounded-3xl object-cover ring-white ring-4"
             alt="Me"
           />
         </div>
