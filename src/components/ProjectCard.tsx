@@ -13,7 +13,7 @@ export function ProjectCard({ project }: Props) {
             flex flex-col
             transition-all duration-300 ease-out
             hover:-translate-y-3 hover:shadow-xl/40 hover:ring-2 hover:ring-[#0084ff]
-            justify-self-center mt-5
+            justify-self-center mt-5 cursor-pointer
           "
       >
         <div className="h-3/7 relative border-b-3 border-gray-300 shadow-md/20">
