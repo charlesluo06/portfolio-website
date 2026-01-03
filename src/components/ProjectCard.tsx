@@ -13,7 +13,7 @@ export function ProjectCard({ project }: Props) {
             flex flex-col
             transition-all duration-300 ease-out
             hover:-translate-y-3 hover:shadow-xl/40 hover:ring-2 hover:ring-[#0084ff]
-            justify-self-center mt-5 cursor-pointer
+            justify-self-center mt-5 cursor-pointer border-2 border-gray-200
           "
       >
         <div className="h-3/7 relative border-b-3 border-gray-300 shadow-md/20">
@@ -32,20 +32,27 @@ export function ProjectCard({ project }: Props) {
         </div>
 
         {/* Tech Stack */}
-        <div className="flex mt-auto justify-between">
-          <div className="px-6 pb-4 flex">
-            <p className="text-sm font-semibold text-gray-700">Tech Stack:</p>
-            <p className="text-sm text-gray-600 ml-3 inset-shadow-sm px-2 border-2 border-gray-200 rounded-3xl">
-              React.js
+        <div className="mt-auto flex items-end justify-between gap-4 px-6 pb-4">
+          {/* Left: label + chips */}
+          <div className="flex-1">
+            <p className="text-sm font-semibold text-gray-700 mb-2">
+              Tech Stack:
             </p>
-            <p className="text-sm text-gray-600 ml-3 inset-shadow-sm px-2 border-2 border-gray-200 rounded-3xl">
-              Typescript
-            </p>
-            <p className="text-sm text-gray-600 ml-3 inset-shadow-sm px-2 border-2 border-gray-200 rounded-3xl">
-              TailwindCSS
-            </p>
+
+            <div className="flex flex-wrap gap-2">
+              {project.techStack.map((tech) => (
+                <span
+                  key={tech}
+                  className="text-sm text-gray-600 px-2 border-2 border-gray-200 rounded-3xl inset-shadow-sm"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
           </div>
-          <div className="px-6 pb-4 flex">
+
+          {/* Right: fixed text */}
+          <div className="shrink-0 whitespace-nowrap">
             <p className="text-sm text-gray-600 font-semibold">Click to view</p>
           </div>
         </div>
