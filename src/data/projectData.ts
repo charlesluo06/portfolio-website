@@ -13,10 +13,10 @@ export const projects: Project[] = [
   {
     id: "vsa",
     img: images.vsa,
-    title: "Vietnamese Student Association Website",
+    title: "VSA@UCR Website",
     desc: "Collaborated with a team of 15 developers to build a website for the Vietnamese Student Association @ UC Riverside.",
     type: "Frontend",
-    techStack: ["React", "Typescript", "Vite", "TailwindCSS"],
+    techStack: ["React", "Typescript", "TailwindCSS", "Next.js", "Figma"],
   },
   {
     id: "portfolio",
@@ -24,6 +24,6 @@ export const projects: Project[] = [
     title: "Personal Portfolio",
     desc: "Modern personal portfolio built using React, Tailwind CSS, and Vite, featuring reusable components, responsive layouts, and a fast development workflow.",
     type: "Frontend",
-    techStack: ["React", "Typescript", "TailwindCSS"],
+    techStack: ["React", "Typescript", "Vite", "TailwindCSS"],
   },
 ];

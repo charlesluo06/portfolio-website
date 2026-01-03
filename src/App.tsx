@@ -5,6 +5,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 
 function App() {
+  
   return (
     <>
     <link rel="icon" type="image/svg+xml" href="/circleMe.png" />

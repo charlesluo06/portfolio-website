@@ -1,8 +1,23 @@
 import LinkedInImg from "../assets/linkedin.svg";
 import GithubImg from "../assets/github.svg";
+import LightImg from "../assets/light.svg"
+import DarkImg from "../assets/dark.svg"
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 function Header() {
+  const [lightMode, setLightMode] = useState(true)
+  function lightSwitch() {
+    if (lightMode === true){
+      setLightMode(false)
+    }
+    else{
+      setLightMode(true)
+    }
+  }
+  {/* TOGGLE LIGHT/DARK MODE LATER */}
+
+
   return (
     <div
       className="
@@ -36,16 +51,16 @@ function Header() {
             Projects
           </p>
         </a>
-        <Link to="/">
+        <a href="/">
           <p className="text-gray-700 rounded-4xl hover:inset-shadow-sm/20 transition ease-in-out duration-150 hover:bg-white px-2">
             Resume
           </p>
-        </Link>
-        <Link to="/">
+        </a>
+        <a href="/">
           <p className="text-gray-700 rounded-4xl hover:inset-shadow-sm/20 transition ease-in-out duration-150 hover:bg-white px-2">
             Contact
           </p>
-        </Link>
+        </a>
         <span className="flex gap-3 pl-5">
           <Link
             target="#"
@@ -62,6 +77,7 @@ function Header() {
               className="w-6 hover:scale-125 transition ease-in-out duration-100"
             />
           </Link>
+          <img onClick={lightSwitch} src={lightMode ? LightImg : DarkImg} className="w-6 hover:scale-125 transition ease-in-out duration-100 cursor-pointer" />
         </span>
       </div>
     </div>

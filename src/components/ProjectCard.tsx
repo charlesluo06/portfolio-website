@@ -35,7 +35,7 @@ export function ProjectCard({ project }: Props) {
         <div className="mt-auto flex items-end justify-between gap-4 px-6 pb-4">
           {/* Left: label + chips */}
           <div className="flex-1">
-            <p className="text-sm font-semibold text-gray-700 mb-2">
+            <p className="text-sm font-semibold text-[#0084ff] mb-2">
               Tech Stack:
             </p>
 
