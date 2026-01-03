@@ -8,9 +8,9 @@ function About() {
   return (
     <motion.div
       id="about"
-      className="bg-[#f7f2ead8] h-[50vh] scroll-mt-45"
+      className="bg-[#f7f2ead8] h-[55vh] scroll-mt-45"
       initial={{ y: 60, opacity: 1 }}
-      whileInView={{ y: -10, opacity: 1 }}
+      whileInView={{ y: 0, opacity: 1 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >

@@ -25,10 +25,10 @@ export function ProjectCard({ project }: Props) {
         </div>
 
         <div className="text-center px-10">
-          <p className="py-3 font-semibold text-[25px] text-[#0084ff]">
+          <p className="py-4 font-semibold text-[25px] text-[#0084ff]">
             {project.title}
           </p>
-          <p className="wrap-break-word text-gray-700">{project.desc}</p>
+          <p className="wrap-break-word text-gray-800">{project.desc}</p>
         </div>
 
         {/* Tech Stack */}
@@ -46,7 +46,7 @@ export function ProjectCard({ project }: Props) {
             </p>
           </div>
           <div className="px-6 pb-4 flex">
-            <p className="text-sm text-gray-600">Click to view</p>
+            <p className="text-sm text-gray-600 font-semibold">Click to view</p>
           </div>
         </div>
       </div>
