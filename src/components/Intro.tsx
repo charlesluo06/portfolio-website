@@ -32,8 +32,7 @@ function Intro() {
               {/* Description */}
               <div className="font-inter border-t border-gray-200 pb-15 pt-7 px-10">
                 <p className="pb-5">
-                  Currently pursuing a degree in Computer Science and an
-                  aspiring Frontend Developer and Software Engineer.
+                  I'm an aspiring Frontend Developer/Software Engineer, currently pursuing a degree in Computer Science at UC Riverside.
                 </p>
 
                 <div className="flex mt-5">

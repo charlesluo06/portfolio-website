@@ -26,4 +26,5 @@ export const projects: Project[] = [
     type: "Frontend",
     techStack: ["React", "Typescript", "Vite", "TailwindCSS"],
   },
+  
 ];

@@ -3,6 +3,7 @@ import Intro from "./components/Intro";
 import Header from "./components/Header";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Experience from "./components/Experience";
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
       <Intro />
       <About />
       <Projects />
+      <Experience />
     </>
   );
 }
