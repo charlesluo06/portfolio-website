@@ -11,7 +11,14 @@ function Experience() {
       </div>
 
       {/* Experience container */}
-      <div className="h-3/7 border-y-6 mt-5 w-6/7 border-gray-300 mx-auto flex items-center bg-white shadow-md/20 rounded-xl ">
+      <div
+        className="
+    group h-3/7 border-y-6 mt-5 w-6/7 border-gray-300 mx-auto
+    flex items-center bg-white rounded-xl
+    shadow-md/15 transition-all duration-300 ease-out
+    hover:-translate-y-1 hover:shadow-xl/30
+  "
+      >
         {/* Logo + Label */}
         <div className="w-1/5 ml-15 flex flex-col items-center justify-center gap-3">
           <img src={ACMImg} alt="ACM" className="w-2/3 object-contain" />
