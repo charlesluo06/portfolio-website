@@ -33,7 +33,7 @@ export function ProjectCard({ project }: Props) {
 
         {/* Tech Stack */}
         <div className="mt-auto flex items-end justify-between gap-4 px-6 pb-4">
-          {/* Left: label + chips */}
+          {/* Left:  */}
           <div className="flex-1">
             <p className="text-sm font-semibold text-[#0084ff] mb-2">
               Tech Stack:
@@ -51,7 +51,7 @@ export function ProjectCard({ project }: Props) {
             </div>
           </div>
 
-          {/* Right: fixed text */}
+          {/* Right */}
           <div className="shrink-0 whitespace-nowrap">
             <p className="text-sm text-gray-600 font-semibold">Click to view</p>
           </div>
