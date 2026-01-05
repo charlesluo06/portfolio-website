@@ -6,7 +6,7 @@ import { motion } from "motion/react";
 
 function About() {
   return (
-    <motion.section
+    <motion.div
       id="about"
       className="bg-[#f7f2ead8] scroll-mt-25 py-10"
       initial={{ y: 60, opacity: 0 }}
@@ -15,7 +15,7 @@ function About() {
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="rounded-4xl border-2 border-gray-200 bg-gray-100 shadow-lg/30 p-6 sm:p-10 lg:p-14 flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+        <div className="rounded-4xl border-2 border-gray-200 bg-gray-100 shadow-lg/30 p-6 sm:p-10 lg:p-12 flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
 
           {/* Image */}
           <div className="shrink-0 w-40 sm:w-56 lg:w-72 rounded-full ring-4 ring-white border-2 border-gray-200 shadow-lg/20 overflow-hidden">
@@ -31,9 +31,9 @@ function About() {
 
             {/* About Text */}
             <div className="bg-white border border-gray-200 rounded-3xl shadow-md/20 px-5 py-5 sm:px-8">
-              <h2 className="text-2xl sm:text-3xl font-semibold text-[#0084ff] mb-4">
+              <p className="text-2xl sm:text-3xl font-semibold text-[#0084ff] mb-4">
                 About Me
-              </h2>
+              </p>
               <p className="text-gray-700 leading-relaxed">
                 Hi! My name is{" "}
                 <span className="text-gray-900 font-medium">Charles Luo</span>. I’m a
@@ -100,7 +100,7 @@ function About() {
           </div>
         </div>
       </div>
-    </motion.section>
+    </motion.div>
   );
 }
 
