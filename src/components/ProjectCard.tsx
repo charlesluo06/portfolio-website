@@ -51,7 +51,7 @@ export function ProjectCard({ project }: Props) {
             </div>
           </div>
 
-          {/* Right: fixed text */}
+          {/* Right */}
           <div className="shrink-0 whitespace-nowrap">
             <p className="text-sm text-gray-600 font-semibold">Click to view</p>
           </div>
