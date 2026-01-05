@@ -111,7 +111,7 @@ function Intro() {
           <a href="#about">
             <button
               type="button"
-              className="px-10 sm:px-16 md:px-24 py-2 rounded-full bg-[#0084ff] text-white shadow-lg cursor-pointer hover:scale-105 transition"
+              className="px-10 sm:px-16 md:px-50 py-1 rounded-full bg-[#0084ff] text-white shadow-lg cursor-pointer hover:scale-105 transition"
               aria-label="Scroll to About section"
             >
               ↓

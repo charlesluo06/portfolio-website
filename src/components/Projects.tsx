@@ -3,18 +3,24 @@ import { projects } from "../data/projectData";
 
 function Projects() {
   return (
-    <div id="projects" className="min-h-[90vh] scroll-mt-20">
-      <div className="items-center flex flex-col mt-20">
-        <p className="text-[40px] font-semibold text-[#0084ff]">My Projects</p>
-        <div className="drop-shadow-xl/25 bg-[#0084ff] ring-4 ring-white w-1/2 h-2 mt-2 rounded-full" />
+    <section id="projects" className="scroll-mt-20 py-16">
+      {/* Title */}
+      <div className="flex flex-col items-center">
+        <p className="text-3xl sm:text-4xl font-semibold text-[#0084ff]">
+          My Projects
+        </p>
+        <div className="drop-shadow-xl/25 bg-[#0084ff] ring-4 ring-white w-32 sm:w-56 md:w-1/2 h-2 mt-3 rounded-full" />
       </div>
 
-      <div className="w-2/3 mx-auto mt-7 grid grid-cols-1 md:grid-cols-2 gap-x-10">
-        {projects.map((project) => (
-          <ProjectCard key={project.id} project={project} />
-        ))}
+      {/* Grid */}
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
+          {projects.map((project) => (
+            <ProjectCard key={project.id} project={project} />
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
 
