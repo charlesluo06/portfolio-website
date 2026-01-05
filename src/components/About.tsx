@@ -8,7 +8,7 @@ function About() {
   return (
     <motion.section
       id="about"
-      className="bg-[#f7f2ead8] scroll-mt-45 py-10"
+      className="bg-[#f7f2ead8] scroll-mt-25 py-10"
       initial={{ y: 60, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       viewport={{ once: true, amount: 0.3 }}
