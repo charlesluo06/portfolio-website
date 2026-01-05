@@ -7,11 +7,11 @@ import { motion } from "motion/react";
 function Intro() {
   return (
     <section id="intro" className="bg-[#f7f2ead8]">
-      <div className="min-h-screen flex flex-col justify-center relative py-16">
+      <div className="min-h-screen flex flex-col justify-center relative py-20">
         {/* Card + Image */}
-        <div className="max-w-6xl mx-auto w-full px-4 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center justify-center gap-8 lg:gap-16">
+        <div className="max-w-6xl mx-auto w-full px-4 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center justify-center gap-8 lg:gap-20">
           {/* Left card */}
-          <div className="w-full lg:flex-1 bg-gray-100 rounded-3xl shadow-lg/20 overflow-hidden">
+          <div className="w-full lg:flex-1 pb-4 lg:pb-6 bg-gray-100 rounded-3xl shadow-lg/20 overflow-hidden">
             {/* Name section */}
             <div className="bg-white text-left px-6 sm:px-10 py-6 border-b border-gray-200">
               <p className="font-medium text-[#0084ff] text-3xl sm:text-4xl lg:text-5xl leading-tight">
