@@ -16,7 +16,7 @@ function Experience() {
     group h-3/7 border-y-6 mt-5 w-6/7 border-gray-300 mx-auto
     flex items-center bg-white rounded-xl
     shadow-md/15 transition-all duration-300 ease-out
-    hover:-translate-y-1 hover:shadow-xl/30
+    hover:-translate-y-1 hover:shadow-xl/30 hover:border-[#0084ff]
   "
       >
         {/* Logo + Label */}
@@ -35,7 +35,7 @@ function Experience() {
               <div className="flex flex-col gap-2">
                 <div className="flex justify-between items-end">
                   <p className="text-2xl font-semibold text-[#0084ff]">
-                    Frontend Developer
+                    Frontend Developer <span className="font-extralight text-gray-400">- Riverside, CA</span>
                   </p>
                   <p className="text-sm mb-1 px-2 text-gray-600">
                     September 2025 - December 2025

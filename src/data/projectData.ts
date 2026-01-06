@@ -7,6 +7,7 @@ export type Project = {
   desc: string;
   type: string;
   techStack: string[];
+  link: string;
 };
 
 export const projects: Project[] = [
@@ -17,6 +18,7 @@ export const projects: Project[] = [
     desc: "Collaborated with a team of 15 developers to build a website for the Vietnamese Student Association @ UC Riverside.",
     type: "Frontend",
     techStack: ["React", "Typescript", "TailwindCSS", "Next.js", "Figma"],
+    link: "https://vsa.ucrhighlanders.org/"
   },
   {
     id: "portfolio",
@@ -25,6 +27,7 @@ export const projects: Project[] = [
     desc: "Modern personal portfolio built using React, Tailwind CSS, and Vite, featuring reusable components, responsive layouts, and a fast development workflow.",
     type: "Frontend",
     techStack: ["React", "Typescript", "Vite", "TailwindCSS"],
+    link: "#intro"
   },
   
 ];
