@@ -2,18 +2,20 @@ import ACMImg from "../assets/acm.png";
 
 function Experience() {
   return (
-    <div className="h-150" id="experience">
+    <div className="h-140 scroll-mt-25" id="experience">
       {/* Title */}
       <div className="flex justify-center mt-20">
         <p className="text-3xl sm:text-4xl font-semibold text-[#0084ff]">
           Experience
         </p>
+        
       </div>
+      <div className="drop-shadow-lg/20 bg-[#0084ff] ring-3 mx-auto ring-white w-32 sm:w-56 md:w-1/2 h-1.5 mt-3 rounded-full" />
 
       {/* Experience container */}
       <div
         className="
-          group relative mt-5 w-6/7 mx-auto
+          group relative mt-15 w-6/7 mx-auto
           flex items-center bg-white rounded-lg
           shadow-md/15 transition-all duration-300 ease-out
           hover:-translate-y-1 hover:shadow-xl/30
@@ -67,7 +69,7 @@ function Experience() {
                     </span>
                   </p>
                   <p className="text-sm mb-1 px-2 text-gray-600">
-                    September 2025 - December 2025
+                    September 2025 - Present
                   </p>
                 </div>
 
