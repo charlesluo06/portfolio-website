@@ -7,7 +7,7 @@ type Props = {
 export function ProjectCard({ project }: Props) {
   return (
     <div>
-      <a href={project.link}>
+      <a href={project.link} target={project.target}>
         <div
           className="
             bg-white w-full h-115 rounded-3xl overflow-hidden shadow-lg/30

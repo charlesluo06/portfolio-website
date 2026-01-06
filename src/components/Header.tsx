@@ -51,7 +51,7 @@ function Header() {
             Projects
           </p>
         </a>
-        <a href="/">
+        <a href="#experience">
           <p className="text-gray-700 rounded-4xl hover:inset-shadow-sm/20 transition ease-in-out duration-150 hover:bg-white px-2">
             Experience
           </p>

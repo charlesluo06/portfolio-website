@@ -3,7 +3,7 @@ import { projects } from "../data/projectData";
 
 function Projects() {
   return (
-    <section id="projects" className="scroll-mt-20 py-16">
+    <section id="projects" className="scroll-mt-10 py-16">
       {/* Title */}
       <div className="flex flex-col items-center">
         <p className="text-3xl sm:text-4xl font-semibold text-[#0084ff]">

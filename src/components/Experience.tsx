@@ -2,7 +2,7 @@ import ACMImg from "../assets/acm.png";
 
 function Experience() {
   return (
-    <section className="h-screen">
+    <div className="h-150" id="experience">
       {/* Title */}
       <div className="flex justify-center mt-20">
         <p className="text-3xl sm:text-4xl font-semibold text-[#0084ff]">
@@ -20,7 +20,7 @@ function Experience() {
         "
       >
         {/* TOP animated border */}
-        <div className="absolute top-0 left-0 h-[6px] w-full bg-gray-300 rounded-t-xl overflow-hidden">
+        <div className="absolute top-0 left-0 h-1.5 w-full bg-gray-300 rounded-t-xl overflow-hidden">
           <div
             className="
               h-full w-full bg-[#0084ff]
@@ -32,7 +32,7 @@ function Experience() {
         </div>
 
         {/* BOTTOM animated border */}
-        <div className="absolute bottom-0 left-0 h-[6px] w-full bg-gray-300 rounded-b-xl overflow-hidden">
+        <div className="absolute bottom-0 left-0 h-1.5 w-full bg-gray-300 rounded-b-xl overflow-hidden">
           <div
             className="
               h-full w-full bg-[#0084ff]
@@ -94,7 +94,7 @@ function Experience() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

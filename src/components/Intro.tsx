@@ -9,7 +9,7 @@ function Intro() {
     <section id="intro" className="bg-[#f7f2ead8]">
       <div className="min-h-screen flex flex-col justify-center relative py-20">
         {/* Card + Image */}
-        <div className="max-w-6xl mx-auto w-full px-4 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center justify-center gap-8 lg:gap-20">
+        <div className="max-w-6xl mx-auto w-full px-4 sm:px-6 lg:px-4 flex flex-col-reverse lg:flex-row items-center justify-center gap-8 lg:gap-24">
           {/* Left card */}
           <div className="w-full lg:flex-1 pb-4 lg:pb-6 bg-gray-100 rounded-3xl shadow-lg/20 overflow-hidden">
             {/* Name section */}
@@ -89,7 +89,7 @@ function Intro() {
           </div>
 
           {/* Right image */}
-          <div className="w-full lg:w-[340px] flex justify-center lg:justify-end">
+          <div className="w-full lg:w-[330px] flex justify-center lg:justify-end">
             <img
               src={Me}
               className="w-56 sm:w-72 lg:w-full max-w-[360px] shadow-lg/20 rounded-3xl object-cover ring-white ring-4"
