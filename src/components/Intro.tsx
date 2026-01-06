@@ -89,7 +89,7 @@ function Intro() {
           </div>
 
           {/* Right image */}
-          <div className="w-full lg:w-[350px] flex justify-center lg:justify-end">
+          <div className="w-full lg:w-[340px] flex justify-center lg:justify-end">
             <img
               src={Me}
               className="w-56 sm:w-72 lg:w-full max-w-[360px] shadow-lg/20 rounded-3xl object-cover ring-white ring-4"
