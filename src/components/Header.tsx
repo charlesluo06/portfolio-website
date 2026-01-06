@@ -56,7 +56,7 @@ function Header() {
             Experience
           </p>
         </a>
-        <a href="/">
+        <a href="#contact">
           <p className="text-gray-700 rounded-4xl hover:inset-shadow-sm/20 transition ease-in-out duration-150 hover:bg-white px-2">
             Contact
           </p>

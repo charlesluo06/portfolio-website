@@ -2,10 +2,11 @@ import EmailImg from "../assets/mail.svg";
 import LocationImg from "../assets/location.svg";
 import LinkedInImg from "../assets/linkedin.svg";
 import GithubImg from "../assets/github.svg";
+import { Link } from "react-router-dom";
 
 function Contact() {
   return (
-    <section className="py-16 h-150">
+    <div className="py-16 h-screen" id="contact">
       {/* Title */}
       <div className="flex flex-col items-center">
         <p className="text-3xl sm:text-4xl font-semibold text-[#0084ff]">
@@ -54,10 +55,14 @@ function Contact() {
             </div>
             <div className="flex mt-5 gap-5">
               <div className="p-2 border-2 border-gray-100 shadow-md/20 rounded-2xl">
-                <img src={LinkedInImg} className="w-8" />
+                <Link target="blank" to="https://www.linkedin.com/in/charles-luo-5b1755317/">
+                  <img src={LinkedInImg} className="w-8" />
+                </Link>
               </div>
               <div className="p-2 border-2 border-gray-100 shadow-md/20 rounded-2xl">
-                <img src={GithubImg} className="w-8" />
+                <Link target="blank" to="https://github.com/charlesluo06">
+                  <img src={GithubImg} className="w-8" />
+                </Link>
               </div>
             </div>
           </div>
@@ -85,7 +90,7 @@ function Contact() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
