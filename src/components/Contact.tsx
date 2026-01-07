@@ -1,5 +1,6 @@
 import EmailImg from "../assets/mail.svg";
 import LocationImg from "../assets/location.svg";
+import ResumeImg from "../assets/resumeBlue.svg";
 import LinkedInImg from "../assets/linkedin.svg";
 import GithubImg from "../assets/github.svg";
 import DownloadImg from "../assets/download.svg";
@@ -82,15 +83,18 @@ function Contact() {
           {/* Right: Resume (ProjectCard-style) */}
           <div className="flex-[.8] flex mt-12">
             {/* Content */}
-            <div className="px-8">
-              <p className="py-4 text-[30px] font-semibold text-[#0084ff]">
-                My Resume
-              </p>
+            <div className="px-6">
+              <div className="flex items-center gap-2 py-4">
+                <img src={ResumeImg} alt="Resume icon" className="size-8" />
+                <p className="text-[30px] font-semibold text-[#0084ff]">
+                  My Resume
+                </p>
+              </div>
 
               <div className="flex items-center gap-4">
                 <button
                   type="button"
-                  className="px-5 ml-2 cursor-pointer flex py-1.5 rounded-full bg-[#0084ff] text-white font-semibold shadow-lg/20 hover:scale-105 transition"
+                  className="px-5 cursor-pointer flex py-1.5 rounded-full bg-[#0084ff] text-white font-semibold shadow-lg/20 hover:scale-105 transition"
                 >
                   <img src={DownloadImg} className="w-5 mr-2" />
                   Download
