@@ -14,8 +14,8 @@ function About() {
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="rounded-4xl border-2 border-gray-200 bg-gray-100 shadow-lg/30 p-6 sm:p-10 lg:p-12 flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
+        <div className="rounded-4xl border-2 border-gray-200 bg-gray-100 shadow-lg/30 p-6 sm:p-10 lg:p-10 flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
 
           {/* Image */}
           <div className="shrink-0 w-40 sm:w-56 lg:w-72 rounded-full ring-4 ring-white border-2 border-gray-200 shadow-lg/20 overflow-hidden">
