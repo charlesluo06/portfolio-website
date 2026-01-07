@@ -10,7 +10,7 @@ function Experience() {
         </p>
         
       </div>
-      <div className="drop-shadow-lg/20 bg-[#0084ff] border-b-4 mx-auto border-white w-32 sm:w-56 md:w-1/2 h-2 mt-3 rounded-full" />
+      <div className="drop-shadow-lg/20 bg-[#0084ff] border-b-3 mx-auto border-white w-32 sm:w-56 md:w-1/2 h-2 mt-3 rounded-full" />
 
       {/* Experience container */}
       <div
