@@ -22,7 +22,7 @@ function Contact() {
       <div className="mt-14 w-6/7 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-stretch gap-8 justify-center pl-16">
           {/* Left: Contact Info */}
-          <div className="flex-[1] h-full bg-white border-2 border-gray-200 rounded-3xl shadow-lg/20 p-6 hover:-translate-y-1 transition flex">
+          <div className="flex-1 h-full bg-white border-2 border-gray-200 rounded-3xl shadow-lg/20 p-6 hover:-translate-y-1 transition flex">
             {/* Left: Text Content */}
             <div className="flex flex-col">
               <p className="text-2xl font-semibold text-[#0084ff] mb-4">
