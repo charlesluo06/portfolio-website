@@ -2,7 +2,7 @@ import ACMImg from "../assets/acm.png";
 
 function Experience() {
   return (
-    <div className="h-140 scroll-mt-25" id="experience">
+    <div className="h-135 scroll-mt-25" id="experience">
       {/* Title */}
       <div className="flex justify-center mt-20">
         <p className="text-3xl sm:text-4xl font-semibold text-[#0084ff]">
@@ -10,7 +10,7 @@ function Experience() {
         </p>
         
       </div>
-      <div className="drop-shadow-lg/20 bg-[#0084ff] ring-3 mx-auto ring-white w-32 sm:w-56 md:w-1/2 h-1.5 mt-3 rounded-full" />
+      <div className="drop-shadow-lg/20 bg-[#0084ff] border-b-4 mx-auto border-white w-32 sm:w-56 md:w-1/2 h-2 mt-3 rounded-full" />
 
       {/* Experience container */}
       <div
