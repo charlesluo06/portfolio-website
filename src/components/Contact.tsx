@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 function Contact() {
   return (
-    <div className="py-16 h-150" id="contact">
+    <div className="py-16 h-130 scroll-mt-25" id="contact">
       {/* Title */}
       <div className="flex flex-col items-center">
         <p className="text-3xl sm:text-4xl font-semibold text-[#0084ff]">
@@ -20,7 +20,7 @@ function Contact() {
       </div>
 
       {/* Bottom row */}
-      <div className="mt-14 w-6/7 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="mt-10 w-6/7 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-stretch gap-8 justify-center pl-16">
           {/* Left: Contact Info */}
           <div className="flex-[.8] flex-col h-full bg-white border-2 border-gray-200 rounded-3xl shadow-lg/20 p-6 hover:-translate-y-1 transition flex">
@@ -30,12 +30,12 @@ function Contact() {
                 Contact Information
               </p>
 
-              <div className="flex gap-10 mt-2 justify-center">
+              <div className="flex gap-5 mt-2 justify-center">
                 <div className="flex items-center justify-center gap-4">
                   <img src={EmailImg} alt="Email" className="w-10 opacity-70" />
                   <div className="flex flex-col">
                     <p className="font-semibold">Email</p>
-                    <p className="text-gray-600">cluo034@ucr.edu</p>
+                    <p className="text-gray-600 text-sm">cluo034@ucr.edu</p>
                   </div>
                 </div>
 
@@ -47,13 +47,13 @@ function Contact() {
                   />
                   <div className="flex flex-col">
                     <p className="font-semibold">Location</p>
-                    <p className="text-gray-600">Riverside, CA</p>
+                    <p className="text-gray-600 text-sm">Riverside, CA</p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="mt-5 flex justify-center">
-              <div className="h-0.5 w-1/2 bg-[#0084ff] rounded-full shadow-md/20" />
+              <div className="h-0.5 w-2/3 bg-[#0084ff] rounded-full shadow-md/20" />
             </div>
 
             {/* Right: Social Icons */}
@@ -94,7 +94,7 @@ function Contact() {
               <div className="flex items-center gap-4">
                 <button
                   type="button"
-                  className="px-5 cursor-pointer flex py-1.5 rounded-full bg-[#0084ff] text-white font-semibold shadow-lg/20 hover:scale-105 transition"
+                  className="px-5 mx-auto cursor-pointer flex py-1.5 rounded-full bg-[#0084ff] text-white font-semibold shadow-lg/20 hover:scale-105 transition"
                 >
                   <img src={DownloadImg} className="w-5 mr-2" />
                   Download
