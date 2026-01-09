@@ -31,7 +31,8 @@ function Intro() {
             {/* Description */}
             <div className="font-inter border-t border-gray-200 px-6 sm:px-10 py-7">
               <p className="text-gray-700 leading-relaxed">
-                I'm an aspiring Frontend Developer/Software Engineer, currently pursuing a degree in Computer Science at UC Riverside.
+                I'm an aspiring Frontend Developer/Software Engineer, currently
+                pursuing a degree in Computer Science at UC Riverside.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6">
@@ -60,9 +61,10 @@ function Intro() {
                 </button>
 
                 {/* Email */}
-                <button
-                  type="button"
-                  className="
+                <a href="#contact">
+                  <button
+                    type="button"
+                    className="
                     group inline-flex items-center justify-center gap-2
                     cursor-pointer
                     border border-gray-300 bg-white
@@ -73,17 +75,18 @@ function Intro() {
                     px-4 py-2 rounded-3xl
                     w-full sm:w-auto
                   "
-                >
-                  <img
-                    src={EmailImg}
-                    className="
+                  >
+                    <img
+                      src={EmailImg}
+                      className="
                       w-6 transition duration-300 ease-in-out
                       group-hover:invert group-hover:brightness-0
                     "
-                    alt="Email icon"
-                  />
-                  Contact Me
-                </button>
+                      alt="Email icon"
+                    />
+                    Contact Me
+                  </button>
+                </a>
               </div>
             </div>
           </div>
