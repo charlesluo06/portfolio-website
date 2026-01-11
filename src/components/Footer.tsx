@@ -38,7 +38,7 @@ function Footer() {
                     px-3 py-1.5 rounded-full
                     text-[#0084ff] dark:text-[#0084ff] font-semibold
                     transition-all duration-150 ease-out
-                    bg-white dark:bg-slate-700 hover:-translate-y-0.5
+                    bg-white dark:bg-slate-800 hover:-translate-y-0.5
                     hover:shadow-md/20 border-2 border-gray-200 dark:border-slate-600
                   "
                 >
