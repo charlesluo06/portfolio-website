@@ -1,7 +1,7 @@
 import Me from "../assets/pro_headshot.jpg";
 import EmailImg from "../assets/mail.svg";
 import ResumeImg from "../assets/resume.svg";
-import ResumeImgDark from "../assets/resumeDark.svg"
+import ResumeImgDark from "../assets/resumeDark.svg";
 import { Typewriter } from "react-simple-typewriter";
 import EmailImgDark from "../assets/EmailDark.svg";
 import { motion } from "motion/react";
@@ -9,7 +9,7 @@ import { useTheme } from "../hooks/useTheme";
 
 function Intro() {
   const { theme } = useTheme();
-  
+
   return (
     <section id="intro" className="">
       <div className="min-h-screen flex flex-col justify-center relative py-20">
@@ -20,9 +20,7 @@ function Intro() {
             {/* Name section */}
             <div className="bg-white dark:bg-slate-800 text-left px-6 sm:px-10 py-6 border-b border-gray-200 dark:border-slate-700">
               <p className="font-medium text-[#0084ff] dark:text-[#0084ff] text-3xl sm:text-4xl lg:text-5xl leading-tight">
-                <span className="text-gray-400 dark:text-slate-500">
-                  I am{" "}
-                </span>
+                <span className="text-gray-400 dark:text-slate-500">I am </span>
                 <Typewriter
                   words={["Charles Luo"]}
                   loop={1}
@@ -44,9 +42,10 @@ function Intro() {
 
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6">
                 {/* Resume */}
-                <button
-                  type="button"
-                  className="
+                <a href="#contact" className="w-full sm:w-auto">
+                  <button
+                    type="button"
+                    className="
                     group inline-flex items-center justify-center gap-2
                     cursor-pointer transition-colors duration-300 ease-in-out
                     hover:text-white hover:bg-[#0084ff] hover:border-[#0084ff]
@@ -56,19 +55,20 @@ function Intro() {
                     px-4 py-2 rounded-3xl ring-[#0084ff] ring-1
                     w-full sm:w-auto
                   "
-                >
-                  <img
-                    src={theme === "dark" ? ResumeImg : ResumeImgDark}
-                    className="
+                  >
+                    <img
+                      src={theme === "dark" ? ResumeImg : ResumeImgDark}
+                      className="
                       w-5 transition duration-300 ease-in-out
                         group-hover:invert group-hover:brightness-0 dark:invert
                     "
-                    alt="Resume icon"
-                  />
-                  <span className="dark:text-[#0084ff] group-hover:text-white">
-                    View Resume
-                  </span>
-                </button>
+                      alt="Resume icon"
+                    />
+                    <span className="dark:text-[#0084ff] group-hover:text-white">
+                      View Resume
+                    </span>
+                  </button>
+                </a>
 
                 {/* Email */}
                 <a href="#contact" className="w-full sm:w-auto">

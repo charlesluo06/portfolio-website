@@ -23,7 +23,7 @@ function Contact() {
       <div className="mt-10 w-6/7 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row items-stretch gap-8 justify-center pl-0 sm:pl-16">
           {/* Left: Contact Info */}
-          <div className="flex-[.8] flex-col h-full bg-white dark:bg-slate-700 border-2 border-gray-200 dark:border-slate-600 rounded-3xl shadow-lg/20 p-6 hover:-translate-y-1 transition flex">
+          <div className="flex-[.8] flex-col h-full bg-white dark:bg-slate-800 border-2 border-gray-200 dark:border-slate-600 rounded-3xl shadow-lg/20 p-6 hover:-translate-y-1 transition flex">
             {/* Left: Text Content */}
             <div className="flex flex-col">
               <p className="text-2xl text-center font-semibold text-[#0084ff] dark:text-[#0084ff] mb-4">

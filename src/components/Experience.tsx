@@ -17,7 +17,7 @@ function Experience() {
         className="
           group relative mt-15 w-6/7 mx-auto
           flex flex-col sm:flex-row sm:items-center
-          bg-white dark:bg-slate-700 rounded-lg
+          bg-white dark:bg-slate-800 rounded-lg
           shadow-md/15 transition-all duration-300 ease-out
           hover:-translate-y-1 hover:shadow-xl/30
         "

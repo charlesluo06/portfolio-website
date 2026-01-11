@@ -5,7 +5,7 @@ function Footer() {
       <div className="mt-8 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
         <div
           className="
-            bg-white dark:bg-slate-700 border-2 border-gray-200 dark:border-slate-600 rounded-3xl shadow-lg/20
+            bg-white dark:bg-slate-800 border-2 border-gray-200 dark:border-slate-600 rounded-3xl shadow-lg/20
             px-6 py-5
             flex flex-col sm:flex-row items-center justify-between gap-6
           "

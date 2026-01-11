@@ -10,7 +10,7 @@ export function ProjectCard({ project }: Props) {
       <a href={project.link} target={project.target}>
         <div
           className="
-            bg-white dark:bg-slate-700 w-full h-115 rounded-3xl overflow-hidden shadow-lg/30
+            bg-white dark:bg-slate-800 w-full h-115 rounded-3xl overflow-hidden shadow-lg/30
             flex flex-col
             transition-all duration-300 ease-out
             hover:-translate-y-3 hover:shadow-xl/40 hover:ring-2 hover:ring-[#0084ff]
