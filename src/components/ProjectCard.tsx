@@ -10,33 +10,33 @@ export function ProjectCard({ project }: Props) {
       <a href={project.link} target={project.target}>
         <div
           className="
-            bg-white w-full h-115 rounded-3xl overflow-hidden shadow-lg/30
+            bg-white dark:bg-slate-700 w-full h-115 rounded-3xl overflow-hidden shadow-lg/30
             flex flex-col
             transition-all duration-300 ease-out
             hover:-translate-y-3 hover:shadow-xl/40 hover:ring-2 hover:ring-[#0084ff]
-            justify-self-center mt-5 cursor-pointer border-2 border-gray-200
+            justify-self-center mt-5 cursor-pointer border-2 border-gray-200 dark:border-slate-600
           "
         >
-          <div className="h-3/7 relative border-b-3 border-gray-300 shadow-md/20">
+          <div className="h-3/7 relative border-b-3 border-gray-300 dark:border-slate-600 shadow-md/20">
             <img className="h-full w-full object-cover" src={project.img} />
 
-            <div className="absolute top-3 right-5 bg-white text-[#0084ff] text-sm px-3 py-1 rounded-full shadow-md/20">
+            <div className="absolute top-3 right-5 bg-white dark:bg-slate-800 text-[#0084ff] dark:text-[#0084ff] text-sm px-3 py-1 rounded-full shadow-md/20 border border-gray-200 dark:border-slate-600">
               {project.type}
             </div>
           </div>
 
           <div className="text-center px-10">
-            <p className="py-4 font-semibold text-[25px] text-[#0084ff]">
+            <p className="py-4 font-semibold text-[25px] text-[#0084ff] dark:text-[#0084ff]">
               {project.title}
             </p>
-            <p className="wrap-break-word text-gray-800">{project.desc}</p>
+            <p className="wrap-break-word text-gray-800 dark:text-slate-300">{project.desc}</p>
           </div>
 
           {/* Tech Stack */}
           <div className="mt-auto flex items-end justify-between gap-4 px-6 pb-4">
             {/* Left:  */}
             <div className="flex-1">
-              <p className="text-sm font-semibold text-[#0084ff] mb-2">
+              <p className="text-sm font-semibold text-[#0084ff] dark:text-[#0084ff] mb-2">
                 Tech Stack:
               </p>
 
@@ -44,7 +44,7 @@ export function ProjectCard({ project }: Props) {
                 {project.techStack.map((tech) => (
                   <span
                     key={tech}
-                    className="text-sm text-gray-600 px-2 border-2 border-gray-200 rounded-3xl inset-shadow-sm"
+                    className="text-sm text-gray-600 dark:text-slate-300 px-2 border-2 border-gray-200 dark:border-slate-600 rounded-3xl inset-shadow-sm"
                   >
                     {tech}
                   </span>
@@ -54,7 +54,7 @@ export function ProjectCard({ project }: Props) {
 
             {/* Right */}
             <div className="shrink-0 whitespace-nowrap">
-              <p className="text-sm text-gray-600 font-semibold">
+              <p className="text-sm text-gray-600 dark:text-slate-400 font-semibold">
                 Click to view
               </p>
             </div>

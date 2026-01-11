@@ -1,4 +1,5 @@
 import "./App.css";
+import { useTheme } from "./hooks/useTheme";
 import Intro from "./components/Intro";
 import Header from "./components/Header";
 import About from "./components/About";
@@ -8,10 +9,10 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
-  
+  useTheme();
+
   return (
-    <>
-    <link rel="icon" type="image/svg+xml" href="/circleMe.png" />
+    <div className="text-gray-900 dark:bg-[#0b1220] dark:text-gray-100">
       <Header />
       <Intro />
       <About />
@@ -19,7 +20,7 @@ function App() {
       <Experience />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 

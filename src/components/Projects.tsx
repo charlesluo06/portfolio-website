@@ -6,10 +6,10 @@ function Projects() {
     <section id="projects" className="scroll-mt-10 py-16">
       {/* Title */}
       <div className="flex flex-col items-center">
-        <p className="text-3xl sm:text-4xl font-semibold text-[#0084ff]">
+        <p className="text-3xl sm:text-4xl font-semibold text-[#0084ff] dark:text-[#0084ff]">
           My Projects
         </p>
-        <div className="drop-shadow-lg/20 bg-[#0084ff] border-b-3 mx-auto border-white w-32 sm:w-56 md:w-1/2 h-2 mt-3 rounded-full" />
+        <div className="drop-shadow-lg/20 bg-[#0084ff] border-b-3 mx-auto border-white dark:border-slate-600 w-32 sm:w-56 md:w-1/2 h-2 mt-3 rounded-full" />
       </div>
 
       {/* Grid */}
