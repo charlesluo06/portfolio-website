@@ -30,7 +30,6 @@ function Header() {
       </div>
 
       <div className="flex items-center gap-3">
-        {/* Nav links: keep EXACT desktop styling, hide on mobile */}
         <div className="hidden lg:flex gap-3">
           <a href="#intro">
             <p className="text-gray-700 rounded-4xl hover:inset-shadow-sm/20 transition ease-in-out duration-150 hover:bg-white px-2">
@@ -59,9 +58,11 @@ function Header() {
           </a>
         </div>
 
-        {/* Icons: always visible (desktop unchanged) */}
         <span className="flex gap-3 lg:pl-5">
-          <Link target="#" to="https://www.linkedin.com/in/charles-luo-5b1755317/">
+          <Link
+            target="#"
+            to="https://www.linkedin.com/in/charles-luo-5b1755317/"
+          >
             <img
               src={LinkedInImg}
               className="w-6 hover:scale-125 transition ease-in-out duration-100"

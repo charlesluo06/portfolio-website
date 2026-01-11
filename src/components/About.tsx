@@ -8,14 +8,14 @@ function About() {
   return (
     <motion.div
       id="about"
-      className="bg-[#f7f2ead8] scroll-mt-25 py-10"
+      className="bg-[#f7f2ead8] scroll-mt-35 py-10"
       initial={{ y: 60, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
-        <div className="rounded-4xl border-2 border-gray-200 bg-gray-100 shadow-lg/30 p-6 sm:p-10 lg:p-10 flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-6">
+        <div className="rounded-4xl border-2 border-gray-200 bg-gray-100 shadow-lg/30 p-6 flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
 
           {/* Image */}
           <div className="shrink-0 w-40 sm:w-56 lg:w-72 rounded-full ring-4 ring-white border-2 border-gray-200 shadow-lg/20 overflow-hidden">
@@ -27,7 +27,7 @@ function About() {
           </div>
 
           {/* Right Content */}
-          <div className="flex flex-col gap-6 lg:gap-10 w-full">
+          <div className="flex flex-col gap-6 lg:gap-8 w-full">
 
             {/* About Text */}
             <div className="bg-white border border-gray-200 rounded-3xl shadow-md/20 px-5 py-5 sm:px-8">
@@ -52,7 +52,7 @@ function About() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
 
               {/* Music */}
-              <div className="group flex flex-col items-center gap-3 bg-white border border-gray-200 rounded-2xl px-4 py-6 shadow-md/20 hover:ring-2 hover:ring-[#0084ff] transition hover:scale-[1.03]">
+              <div className="group flex flex-col items-center gap-3 bg-white border border-gray-200 rounded-2xl px-4 py-4 lg:py-5 shadow-md/20 hover:ring-2 hover:ring-[#0084ff] transition hover:scale-[1.03]">
                 <img
                   src={SpotifyIcon}
                   alt="Music"
@@ -67,7 +67,7 @@ function About() {
               </div>
 
               {/* Lifting */}
-              <div className="group flex flex-col items-center gap-3 bg-white border border-gray-200 rounded-2xl px-4 py-6 shadow-md/20 hover:ring-2 hover:ring-[#0084ff] transition hover:scale-[1.03]">
+              <div className="group flex flex-col items-center gap-3 bg-white border border-gray-200 rounded-2xl px-4 py-4 shadow-md/20 hover:ring-2 hover:ring-[#0084ff] transition hover:scale-[1.03]">
                 <img
                   src={GymIcon}
                   alt="Lifting"
@@ -82,7 +82,7 @@ function About() {
               </div>
 
               {/* Food */}
-              <div className="group flex flex-col items-center gap-3 bg-white border border-gray-200 rounded-2xl px-4 py-6 shadow-md/20 hover:ring-2 hover:ring-[#0084ff] transition hover:scale-[1.03]">
+              <div className="group flex flex-col items-center gap-3 bg-white border border-gray-200 rounded-2xl px-4 py-4 shadow-md/20 hover:ring-2 hover:ring-[#0084ff] transition hover:scale-[1.03]">
                 <img
                   src={FoodIcon}
                   alt="Food"
