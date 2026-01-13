@@ -32,10 +32,18 @@ function Contact() {
 
               <div className="flex flex-col sm:flex-row gap-5 mt-2 justify-center">
                 <div className="flex items-center justify-center gap-4">
-                  <img src={EmailImg} alt="Email" className="w-10 opacity-70 dark:invert" />
+                  <img
+                    src={EmailImg}
+                    alt="Email"
+                    className="w-10 opacity-70 dark:invert"
+                  />
                   <div className="flex flex-col">
-                    <p className="font-semibold text-gray-900 dark:text-slate-100">Email</p>
-                    <p className="text-gray-600 dark:text-slate-400 text-sm">cluo034@ucr.edu</p>
+                    <p className="font-semibold text-gray-900 dark:text-slate-100">
+                      Email
+                    </p>
+                    <p className="text-gray-600 dark:text-slate-400 text-sm">
+                      cluo034@ucr.edu
+                    </p>
                   </div>
                 </div>
 
@@ -46,8 +54,12 @@ function Contact() {
                     className="w-10 opacity-70 dark:invert"
                   />
                   <div className="flex flex-col">
-                    <p className="font-semibold text-gray-900 dark:text-slate-100">Location</p>
-                    <p className="text-gray-600 dark:text-slate-400 text-sm">Riverside, CA</p>
+                    <p className="font-semibold text-gray-900 dark:text-slate-100">
+                      Location
+                    </p>
+                    <p className="text-gray-600 dark:text-slate-400 text-sm">
+                      Riverside, CA
+                    </p>
                   </div>
                 </div>
               </div>
@@ -94,8 +106,9 @@ function Contact() {
 
               <div className="flex items-center ml-6 sm:justify-start gap-4">
                 <a
-                  href="/resume.pdf"
-                  download
+                  href="/charlesluo_resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="px-5 cursor-pointer flex py-1.5 rounded-full bg-[#0084ff] dark:text-slate-800 text-white font-semibold shadow-lg/20 hover:scale-105 transition"
                 >
                   <img src={DownloadImg} className="dark:invert w-5 mr-2" />
