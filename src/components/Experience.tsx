@@ -1,5 +1,5 @@
 import ACMImg from "../assets/acm.png";
-import TTImg from "../assets/tt.png"
+import TTImg from "../assets/tt.png";
 
 function Experience() {
   return (
