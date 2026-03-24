@@ -1,4 +1,5 @@
 import ACMImg from "../assets/acm.png";
+import TTImg from "../assets/tt.png"
 
 function Experience() {
   return (
@@ -110,6 +111,108 @@ function Experience() {
                 <li>
                   Improved usability and performance across multiple screen
                   sizes and devices.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="
+          group relative mt-15 w-6/7 mx-auto
+          flex flex-col sm:flex-row sm:items-center
+          bg-white dark:bg-slate-800 rounded-lg
+          shadow-md/15 transition-all duration-300 ease-out
+          hover:-translate-y-1 hover:shadow-xl/30
+        "
+      >
+        {/* TOP animated border */}
+        <div className="absolute top-0 left-0 h-1.5 w-full bg-gray-300 dark:bg-slate-600 rounded-t-xl overflow-hidden">
+          <div
+            className="
+              h-full w-full bg-[#0084ff]
+              scale-x-0 origin-center
+              transition-transform duration-300 ease-out
+              group-hover:scale-x-100
+            "
+          />
+        </div>
+
+        {/* BOTTOM animated border */}
+        <div className="absolute bottom-0 left-0 h-1.5 w-full bg-gray-300 dark:bg-slate-600 rounded-b-xl overflow-hidden">
+          <div
+            className="
+              h-full w-full bg-[#0084ff]
+              scale-x-0 origin-center
+              transition-transform duration-300 ease-out
+              group-hover:scale-x-100
+            "
+          />
+        </div>
+
+        {/* Logo + Label */}
+        <div
+          className="
+            w-full sm:w-1/5
+            ml-0 sm:ml-15
+            flex flex-col items-center justify-center gap-3
+            py-6 sm:py-10
+            border-b sm:border-b-0 border-gray-200 dark:border-slate-600
+          "
+        >
+          <img
+            src={TTImg}
+            alt="ACM"
+            className="w-1/2 h-50 sm:w-2/3 object-contain"
+          />
+
+          <p className="text-center text-lg sm:text-xl font-semibold text-gray-900 dark:text-slate-100 leading-snug px-4 sm:px-0">
+            Theta Tau - Engineering Fraternity
+          </p>
+        </div>
+
+        {/* Content */}
+        <div
+          className="
+            w-full sm:w-4/6
+            flex items-center
+            pl-0 sm:pl-12
+            py-6 sm:py-10
+          "
+        >
+          <div className="w-full">
+            <div className="px-4 sm:px-6 py-4 flex flex-col gap-8 sm:gap-10 rounded-xl">
+              {/* Role + date */}
+              <div className="flex flex-col gap-2">
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-end gap-2">
+                  <p className="text-xl sm:text-2xl font-semibold text-[#0084ff] dark:text-[#0084ff]">
+                    Scribe{" "}
+                    <span className="font-extralight text-gray-400 dark:text-slate-500">
+                      - Riverside, CA
+                    </span>
+                  </p>
+
+                  <p className="text-sm sm:mb-1 px-0 sm:px-2 text-gray-600 dark:text-slate-400">
+                    September 2025 - Present
+                  </p>
+                </div>
+
+                {/* Blue underline */}
+                <div className="h-0.5 w-full bg-[#0084ff] rounded-full" />
+              </div>
+
+              {/* Bullets */}
+              <ul className="list-disc list-inside text-gray-800 dark:text-slate-300 space-y-4 sm:space-y-5">
+                <li>
+                  Maintained operational continuity for 40-member professional
+                  engineering organization by managing website updates and
+                  ensuring the availability of key information to all members.
+                </li>
+                <li>
+                  Modernized the chapter website by migrating from the previous
+                  tech stack to React, Tailwind CSS, and TypeScript, while
+                  refactoring the UI to improve performance, design, and overall
+                  user experience.
                 </li>
               </ul>
             </div>
